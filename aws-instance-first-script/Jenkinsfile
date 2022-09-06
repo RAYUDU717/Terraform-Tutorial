@@ -22,7 +22,7 @@ pipeline {
         stage('checkout') {
             steps {
                  script{
-                        dir("terraform11")
+                        dir("terraform")
                         {
                             git "https://github.com/RAYUDU717/Terraform-Tutorial.git"
                         }
