@@ -22,9 +22,9 @@ pipeline {
         stage('checkout') {
             steps {
                  script{
-                        dir("terraform")
+                        dir("terraform11")
                         {
-                            git "https://github.com/easyawslearn/Terraform-Tutorial.git"
+                            git "https://github.com/RAYUDU717/Terraform-Tutorial.git"
                         }
                     }
                 }
